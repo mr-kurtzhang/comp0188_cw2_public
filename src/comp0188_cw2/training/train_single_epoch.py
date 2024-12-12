@@ -58,7 +58,7 @@ class TrainSingleEpoch:
             will be the same keys required by the criterion. 
         """
         # losses = torch.tensor(0)
-        losses = torch.tensor(0.0)
+        losses = 0
         denom = torch.tensor(0)
         if gpu:
             _device = "cuda"
