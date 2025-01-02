@@ -2,7 +2,7 @@ import os
 from pymlrf.FileSystem import DirectoryHandler
 from . import project_options
 
-WANDB_PROJECT = "cw2_v2"
+WANDB_PROJECT = "cw2_final"
 
 if project_options.collab:
     ROOT_PATH = "/content/drive/MyDrive/comp0188_2425/cw2"    
